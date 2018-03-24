@@ -6,8 +6,9 @@ export function loadWallets() {
   };
 }
 
-export function addWallet() {
+export function addWallet(username) {
   return {
-    type: ADD_WALLET
+    type: ADD_WALLET,
+    username,
   };
 }
